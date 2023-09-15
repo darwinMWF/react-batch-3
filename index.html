@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+<body>
+    
+    <script>
+
+
+// data type 
+// Number
+// String
+// Boolean
+// undefined
+// null
+// object
+     let  num1 = 60;
+     const num2 = 3.14;
+
+     const obj = {
+        name:"mukesh",
+        age:25,
+        bloodgrp:"ab+"
+     }
+
+     const arry = [45,23,"text",{
+        name:"mukesh",
+        age:25,
+        bloodgrp:"ab+"
+     },{
+        name:"sukesh",
+        age:29,
+        bloodgrp:"b+"
+     }]
+
+        console.log("hello world");
+        console.log("hello duniya");
+        console.log(num1)
+        console.log(num1+23)
+        console.log(num1-60)
+        num1 = 23// variable update
+        // num2 = 25
+        console.log(`after here num1 will be ${num1}`)
+        console.log(num1*2)
+        console.log(num1/2)
+        console.log(num1%2)
+
+        console.log("2"+2)
+        console.log("2"*2)
+        console.log("2"/2)
+        console.log("2"%2)
+
+
+        // objects
+        console.log(obj)
+        console.log(obj.name)
+        console.log(obj.age)
+        console.log(obj.bloodgrp)
+
+        //array
+        console.log(arry[3])
+        console.log(arry[0])
+
+        arry[0]  = "mukesh"
+        console.log(arry[0]);
+
+
+        // operator
+        // arithmatic +- / * %
+
+        // compare > < >= <= == != ===,!==
+        // logical && || 
+
+
+        console.log(5<=5)
+        console.log(5==5)
+        console.log(5!=3)
+        console.log("5"===5)
+        console.log("5"!==5)
+
+        // &&
+        // console.log(5>6 && 4>5)
+        // console.log(5>6 && 4<5)
+        // console.log(5<6 && 4<5)
+
+        //||
+        // console.log(23-2 !== 21 || 56/2 === 28)
+        // console.log(23-2 === 21 || 56/2 !== 28)
+        // console.log(23-2 === 21 || 56/2 === 28)
+
+        let age = parseFloat(prompt("give your age"))
+        console.log(typeof age)
+        if(age>25){
+            console.log("hello this if condition")
+        }else{
+            console.log("not age")
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>
